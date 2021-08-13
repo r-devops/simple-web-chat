@@ -5,4 +5,4 @@ WORKDIR   /app
 COPY      public/ ./ 
 COPY      index.js package.json ./ 
 RUN       npm install 
-ENTRYPOINT       ["npm", "test"]
+ENTRYPOINT       ["node", "index.js"]
