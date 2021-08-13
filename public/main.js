@@ -28,11 +28,7 @@ $(function() {
 
   function addParticipantsMessage (data) {
     var message = '';
-    if (data.numUsers === 1) {
-      message += "there's 1 participant";
-    } else {
-      message += "there are " + data.numUsers + " participants";
-    }
+    message += "You can Enter your Message and there trainer will respond to your message soon";
     log(message);
   }
 
