@@ -29,7 +29,7 @@ $(function() {
   function addParticipantsMessage (data) {
     var message = '';
     message += "You can Enter your Message and there trainer will respond to your message soon";
-    log(message);
+    log("");
   }
 
   // Sets the client's username
