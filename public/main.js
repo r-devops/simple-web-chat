@@ -25,7 +25,7 @@ $(function() {
   var $currentInput = $usernameInput;
 
   var socket = io();
-
+  log("You can Enter your Message and there trainer will respond to your message soon");
   function addParticipantsMessage (data) {
     var message = '';
     message += "You can Enter your Message and there trainer will respond to your message soon";
